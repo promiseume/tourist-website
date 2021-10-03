@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.head-der h2{
+    font-size: 2.5rem;
+    color:rgb(59, 1, 59);
+    font-weight: 750;
+}
+.head-der{
+    background:url=("https://media.istockphoto.com/photos/route-of-arial-view-futuristic-route-gps-tracking-map-navigator-with-picture-id1291379828?b=1&k=20&m=1291379828&s=170667a&w=0&h=g8t_KVN_8H94oQNnf0UgKN7e9CGVpQzydsY8eUT7nac=");
+    padding-top: 80px;
+}
+.header p{
+    font: 1rem;
+    font-weight: 550;
+    color:rgb(27, 1, 27) ;
+}
+.img-header img{
+    border-radius: 68%;
+    height: 72vh;
+    width: 90%;
+    padding: 20px;
+}
+.header button{
+    border-radius: 20px;
+    padding: 8px;
+    background-color: rgb(255, 136, 0);
+    color: #ffff;
+    border: none;}
+

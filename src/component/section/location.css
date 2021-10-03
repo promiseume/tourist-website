@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    border: 3px solid rgb(173, 173, 140);
+    border-radius: 5px;
+}
+.grid-container img{
+    height: 70vh;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+}
+.location h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:rgb(59, 1, 59) ;
+}

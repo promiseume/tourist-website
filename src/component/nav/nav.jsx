@@ -10,20 +10,23 @@ export default function Nav() {
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <a id='navnav' class="navbar-brand" href="#">Karya</a>
       <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search for destination" aria-label="Search"/>
+        <input class="form-control me-2" type="search" placeholder="Search for destination...." aria-label="Search"/>
       </form>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li id='navnav-item'  class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          <a class="nav-link active" aria-current="page" href="#About">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Service</a>
+          <a class="nav-link active" aria-current="page" href="#Service">Service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Destinations</a>
+          <a class="nav-link active" aria-current="page" href="#Destination">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#login">Login</a>
         </li>
       </ul>
     </div>
@@ -31,3 +34,4 @@ export default function Nav() {
 </nav>
   )
 }
+
