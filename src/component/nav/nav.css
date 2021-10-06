@@ -8,6 +8,11 @@
 .navbar-light .navbar-nav .nav-link.active{
     color:rgb(59, 1, 59) ;
 }
+.navbar-light .navbar-nav .nav-link.active:hover{
+    font-size: 1.1rem;
+    color: rgb(148, 78, 148);
+}
+
 .nav-link{
     font-size: 1rem;
     font-weight: 700;

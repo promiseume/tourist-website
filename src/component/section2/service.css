@@ -1,0 +1,9 @@
+.service{
+    background-color:rgb(228, 220, 228) ;
+    text-align: center;
+}
+.service h1{
+    color: rgb(59, 1, 59);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
