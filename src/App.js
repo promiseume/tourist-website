@@ -8,8 +8,8 @@ function App() {
     <div className="App">
      <Nav/>
      <Header/>
-     <Services/>
      <Destination/>
+     <Services/>
      <Footer/>
     </div>
   );
